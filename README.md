@@ -3,8 +3,7 @@
 $ bundle exec irb -rnokogiri
 
 body = `curl http://example.com/`
-Nokogiri.parse()
-
+Nokogiri.parse(body)
 ```
 
 
